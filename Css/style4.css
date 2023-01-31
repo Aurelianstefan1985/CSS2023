@@ -1,0 +1,18 @@
+body{
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+}
+div{
+    border: solid 2px red;
+    background-color: purple;
+    padding: 0;
+}
+div>div>div{
+    background-color: rgb(224, 97, 97);
+    margin: 12px;
+}
+div>div{
+    background-color: yellow;
+    margin: 12px;
+}

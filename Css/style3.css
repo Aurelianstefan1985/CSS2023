@@ -1,0 +1,22 @@
+div, section {
+margin: 20px;
+padding: 15px;
+border: 2px solid red;
+}
+/* div(virgula) section =>adica div-urile si section-urile din HTML */
+
+div p {
+color: red;
+}
+/*div(spatiu) p=> pentru toate p-urile care se afla intr-un div, aplica proprietatea asta */
+
+div>p {
+font-style: italic;
+}
+/* atunci cand p-ul este copilul direct al lui div. 
+daca sunt mai multe article, div, section intr-un div, putem sa selectam div>section>article>p, adica pentru toate p-urile care sunt copii directi
+ai lui article, iar article este copilul direct dintr-o section, iar section este copilul direct al unui div */
+
+section + p {
+    color: green;
+}

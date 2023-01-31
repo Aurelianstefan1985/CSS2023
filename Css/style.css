@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* "*" este foolosita pentru a adauga css intregului document */
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* in constructie codul se lasa cum l-am creat, dar in productie se recomanda MINIMIZAREA(minify)  */
+
+
+p{
+    font-style: italic;
+}
+div{
+    border-color: red;
+    border-style: double;
+    border-width: 5px;
+}
+div:not(#mydiv2){
+    background-color: aqua;
+    /* pentru toate divurile care nu au id-ul mydiv2, aplica solicitarile */
+}
+#mydiv2{
+    width: 30%;
+    max-width: 400px;
+    height: 400px;
+    overflow: hidden;
+    /* adica tot ce e in afara, sa ascundem */
+}
+div.mydiv{
+    margin: 25px 20px;
+    padding: 15px;
+    font-size: 23px;
+    /* clasa se poate chema prin notarea si a locului din care face parte(div,p), exp: div.mydiv, sau poate fi chemat direct, exp: .mydiv */
+}
+.mydiv3{
+    font-size: 32px;
+}
+/* ca si prioritate, ca si clase pot fi cate vrem, dar can le trecem in CSS se iau in ordinea scrisului */
