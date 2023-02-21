@@ -1,0 +1,15 @@
+/* FONTS */
+/* ./node_modules/.bin/sass ./sass/ap2.scss ./css/ap2.css - modalitate de 
+a face update la Sass pentru a fi convertit in CSS*/
+div {
+  border: 5px solid green;
+  font-family: Arial, sans-serif;
+  color: #1d90ff;
+  background-color: #fce473;
+}
+
+p {
+  color: #1d90ff;
+}
+
+/*# sourceMappingURL=ap2.css.map */

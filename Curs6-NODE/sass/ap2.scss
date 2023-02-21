@@ -1,0 +1,20 @@
+$yellow: #fce473;
+$blue: #1d90ff;
+$green: green;
+$primary-color: $blue;
+$secondary-color: $yellow;
+
+/* FONTS */
+/* ./node_modules/.bin/sass ./sass/ap2.scss ./css/ap2.css - modalitate de 
+a face update la Sass pentru a fi convertit in CSS*/
+
+$sans-serif: Arial, sans-serif;
+div{
+    border: 5px solid $green;
+    font-family: $sans-serif;
+    color: $primary-color;
+    background-color: $secondary-color;
+    p{
+    color: $primary-color;
+}
+}
